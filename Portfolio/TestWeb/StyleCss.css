@@ -1,0 +1,145 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+header{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1024px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 40px;
+}
+header div{
+	background: gray;
+}
+.box1{
+	height: 100px;
+	margin-right: 20px;
+	flex: 1;
+}
+.box2{
+	height: 100px;
+	margin-right: 20px;
+	flex: 2;
+}
+.box3{
+	height: 100px;
+	margin-right: 20px;
+	flex: 6;
+}
+.main{
+	display: flex;
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.section1{
+	width: 19.75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-right: 3.125%;
+}
+.box4{
+	background: gray;
+	min-height: 220px;
+	width: 100%;
+}
+.box7{
+	width: 100%;
+	height: 90px;
+}
+.section2{
+	width: 86.25%;
+	display: flex;
+	flex-flow: row wrap;
+	flex-direction: column;
+}
+.box5{
+	background: #dbdbdb;
+	min-height: 140px;
+	margin-right: 15px;
+}
+.box5 li{
+	padding-left: 30px;
+	font-size: 14px;
+}
+.box5 p{
+	padding-left: 15px;
+	font-size: 14px;
+}
+.box6{
+	padding-top: 15px;
+	width: 100%;
+	flex-flow: row wrap;
+}
+
+.box6 img{
+	height: 100px;
+	width: 18.25%;/*19.55*/
+	flex-flow: row wrap;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+.section3{
+	display: flex;
+	width: 100%;
+}
+.box8{
+	width: 50%;
+	height: 130px;
+	background: #dbdbdb; 
+	margin-right: 20px;
+}
+.box9{
+	width: 50%;
+	height: 130px;
+	background: #dbdbdb;
+}
+.box9 p{
+	padding: 10px;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-top: 20px;
+	border-top: 3px solid black;
+}
+.boxses{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 2;
+}
+.box10{
+	background: gray;
+	flex: 2;
+	margin-right: 20px;
+	height: 120px;
+}
+.box10 ul{
+	column-count: 2;
+}
+.box10 li{
+	list-style-type: none;
+}
+.box11{
+	background: gray;
+	flex: 2;
+	margin-right: 20px;
+	height: 120px;
+}
+.box12{
+	background: gray;
+	height: 50px;
+}
+footer img{
+	width: 100%;
+	height: 50px;
+}
